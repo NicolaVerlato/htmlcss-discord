@@ -102,31 +102,47 @@ h1{
 }
 /* main */
 section:nth-child(even){
-    background-color: lightgray;
+    background-color: #f5f5f5;
 }
 .section-content{
     display: flex;
     align-items: center;
-    padding: 25px 0;
+    padding: 60px 0;
+    height: 600px;
+}
+.item{
+    width: 500px;
+}
+h2{
+    padding: 20px 0;
+    font-size: 30px;
+}
+.last-section-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    text-align: center;
 }
 
-.main-content{
-    width: 60%;
-    height: 300px;
-    background-color: #1e90ff;
-    border: 1px dotted black;
-}
-aside{
-    width: 40%;
-    height: 300px;
-    background-color: #ffc0ca;
-    border: 1px dotted black;
-}
-
-.green{
-    background-color: green;
+.last-item{
     width: 100%;
-    height: 500px;
+}
+.last-option h2{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 60%;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.last-button{
+    padding: 10px;
+    background-color: #7389da;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
 }
 
 /* footer */
