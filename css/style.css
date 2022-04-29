@@ -9,7 +9,7 @@ body{
 }
 /* common */
 .container{
-    width: 70%;
+    width: 75%;
     margin: auto;
 }
 ul{
@@ -27,17 +27,20 @@ ul{
     background-color: white;
     color: black;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 .btn-black{
     background-color: black;
     color: white;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 img{
     width: 100%;
     display: block;
+}
+p{
+    font-size: 20px;
 }
 
 /* HEADER */
@@ -57,18 +60,19 @@ img{
 nav a{
     color: inherit;
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 .logo{
-    padding-top: 7px;
+    padding-top: 5px;
+    width: 130px;
 }
 nav{
     width: 70%;
     text-align: center;
 }
 .login{
-    width: 10%;
-    padding: 7px;
+    width: 7%;
+    padding: 8px;
     font-size: 13px;
 }
 
@@ -76,6 +80,7 @@ nav{
 .header-bottom{
     background-image: url(../img/jumbo.png);
     background-size: 100%;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,22 +88,22 @@ nav{
     color: white;
 }
 .jumbotron{
-    width: 60%;
+    width: 50%;
     text-align: center;
 }
 
 /* jumbotron items */
 h1{
-    padding: 20px;
-    font-size: 40px;
+    padding: 30px 0;
+    font-size: 50px;
     font-weight: 500;
 }
 .jumbotron p{
-    padding-bottom: 25px;
+    padding-bottom: 35px;
 }
 .button{
-    padding: 10px;
-    margin: 0 10px;
+    padding: 15px;
+    margin: 0px 10px;
 }
 /* main */
 section:nth-child(even){
@@ -106,16 +111,18 @@ section:nth-child(even){
 }
 .section-content{
     display: flex;
-    align-items: center;
-    padding: 60px 0;
-    height: 600px;
+    padding: 60px;
+    height: 550px;
+}
+.aside-content{
+    padding: 0 15px;
 }
 .item{
-    width: 500px;
+    width: 550px;
 }
 h2{
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 /* last section content */
@@ -184,8 +191,9 @@ footer{
 
 /* right content */
 .footer-right-content{
-    width: 17,5%;
-    padding: 20px 20px;
+    width: 17.5%;
+    padding-top: 20px;
+    padding-left: 75px;
 }
 h3{
     color: #7389da;
@@ -200,20 +208,19 @@ h3{
 }
 hr{
     border: 1px solid #7389da;
+    margin-bottom: 15px;
 }
 /* footer bottom */
 .footer-bottom{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    /* test */
-    height: 50px;
+    padding-bottom: 15px;
 }
 .footer-bottom img{
-    width: 15%;
+    width: 12%;
 }
-.btn-small{
+.footer-bottom .btn-small{
     background-color: #7389da;
     padding: 7px 10px;
     color: white;
